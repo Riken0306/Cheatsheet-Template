@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: blueviolet; */
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #302f2f;
+  color: white;
+  font-family: "Potta One", cursive;
+  letter-spacing: 1px;
+  height: 56px;
+}
+.container {
+  width: 50vw;
+  margin: auto;
+  padding: 32px 0;
+  font-family: "Roboto", sans-serif;
+}
+.logo img {
+  width: 50px;
+}
+
+.toolbar-item button {
+  cursor: pointer !important;
+  color: white !important;
+  border: 1px solid white !important;
+  border-radius: 3px !important;
+}
